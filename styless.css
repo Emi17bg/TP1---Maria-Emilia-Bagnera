@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+/*HEADER*/
+header img {
+  width: 90px;
+  height: auto;
+  padding: 10px;
+}
+
+.nav-icon img {
+  width: 40px;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+
+/*BIOGRAFIA*/
+.biografia {
+  height: 100vh;
+  background-image: url(./assent/fondo.jpg);
+}
