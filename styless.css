@@ -21,5 +21,41 @@ header img {
 /*BIOGRAFIA*/
 .biografia {
   height: 100vh;
-  background-image: url(./assent/fondo.jpg);
+  background-image: url(./assets/fondo.jpg);
+}
+
+section h2 {
+  color: black;
+  text-align: center;
+  padding-top: 150px;
+  font-weight: 700;
+}
+
+.descripcion {
+  color: black;
+  margin-left: 20px;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/*PROYECTOS*/
+
+.proyecto {
+  height: 100vh;
+}
+
+section h3 {
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.conteiner-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
