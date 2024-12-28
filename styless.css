@@ -79,3 +79,35 @@ section h3 {
   margin-left: 25px;
   margin-right: 25px;
 }
+
+/* BOTON */
+.btn-arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #b1c7bb;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 1000;
+  border: 1px solid black;
+}
+
+.btn-arriba:hover {
+  background-color: #307ac9;
+}
+
+/*FOOTER*/
+/*Footer*/
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
