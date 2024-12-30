@@ -24,16 +24,20 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <img src="./assets/A.jpg" alt="Foto">
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#biografia">Biografia</a>
+              <a class="nav-link active" aria-current="page" href="#biografia">Biografía</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#proyectos">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#formacion">Formacion</a>
+              <a class="nav-link active" href="#formacion">Formación</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#contacto">Contacto</a>
@@ -54,26 +58,27 @@
     </nav>
   </header>
 
+
   <main>
     <!--BIOGRAFIA-->
     <section id="biografia" class="biografia">
       <strong>
         <h2>MARIA EMILIA BAGNERA</h2>
       </strong>
-      <p class="descripcion">Soy desarrolladora web, desarrollo y gestiono sitios y aplicaciones que contribuyen al
-        éxito del producto. Mi
-        enfoque está en crear soluciones efectivas que mejoren el rendimiento y la experiencia del usuario.</p>
+      <p class="descripcion">Soy desarrolladora web, hago sitios y aplicaciones que ayudan a que los proyectos sean un
+        éxito. Me concentro en soluciones simples y efectivas que mejoran el rendimiento y la experiencia de los
+        usuarios.</p>
     </section>
 
     <!--PROYECTOS-->
-    <section class="proyectos">
+    <section id="proyectos" class="proyectos">
       <h3>Proyectos</h3>
-      <section id=proyectos class="conteiner-proyectos">
+      <section class="conteiner-proyectos">
         <div class="card" style="width: 18rem;">
           <img src="./assets/blog.jpg" class="card-img-top" alt="img-blog">
           <div class="card-body">
             <h5 class="card-title">Blog interactivo</h5>
-            <p class="card-text">Pagina web donde los usuarios pueden registrarse, publicar articulos y dejar
+            <p class="card-text">Página web donde los usuarios pueden registrarse, publicar artículos y dejar
               comentarios.
             </p>
             <a href="#" class="btn btn-primary">Visitar sitio</a>
@@ -84,7 +89,7 @@
           <img src="./assets/tiendaropa.jpg" class="card-img-top" alt="img-ropa">
           <div class="card-body">
             <h5 class="card-title">Tienda de ropa</h5>
-            <p class="card-text">Sitio de comercio electronico basico donde los usuarios pueden navegar por los
+            <p class="card-text">Sitio de comercio electrónico donde los usuarios pueden navegar por los
               productos.
             </p>
             <a href="#" class="btn btn-primary">Visitar sitio</a>
@@ -95,7 +100,7 @@
           <img src="./assets/appgames.jpg" class="card-img-top" alt="img-blog">
           <div class="card-body">
             <h5 class="card-title">App de juegos</h5>
-            <p class="card-text">Desarrollo de aplicacion a fin de ofrecer a los usuarios entretenimiento.
+            <p class="card-text">Desarrollo de aplicación a fin de ofrecer a los usuarios entretenimiento.
             </p>
             <a href="#" class="btn btn-primary">Visitar sitio</a>
           </div>
@@ -104,7 +109,7 @@
         <div class="card" style="width: 18rem;">
           <img src="./assets/centromedico.jpg" class="card-img-top" alt="img-blog">
           <div class="card-body">
-            <h5 class="card-title">Centro medico</h5>
+            <h5 class="card-title">Centro médico</h5>
             <p class="card-text">Desarollada con HTML, CSS y Js. Los pacientes pueden ver turnos disponibles y
               reservarlos.
             </p>
@@ -115,14 +120,14 @@
     </section>
 
     <!--FORMACION-->
-    <section class="formacion">
-      <h3>Formacion</h3>
-      <section id=formacion class="conteiner-formacion">
+    <section class="formacion" id="formacion">
+      <h3>Formación</h3>
+      <section class="conteiner-formacion">
         <div class="card" style="width: 18rem;">
           <img src="./assets/curso1.jpg" class="card-img-top" alt="img-curso1">
           <div class="card-body">
             <h5 class="card-title">Programador web</h5>
-            <p class="card-text">Desarrollo de sitios web utilizando PHP y bases de datos MySQL. Maquetacion de paginas
+            <p class="card-text">Desarrollo de sitios web utilizando PHP y bases de datos MySQL. Maquetación de páginas
               web con HTML y CSS.</p>
             <a href="#" class="btn btn-primary">Ver diploma</a>
           </div>
@@ -132,7 +137,7 @@
           <img src="./assets/curso2.jpeg" class="card-img-top" alt="img-curso1">
           <div class="card-body">
             <h5 class="card-title">Programador en C++ para videojuegos</h5>
-            <p class="card-text">Programacion de videojuegos en C++, creacion de estructuras de programacion.</p>
+            <p class="card-text">Programación de videojuegos en C++, creación de estructuras de programación.</p>
             <a href="#" class="btn btn-primary">Ver diploma</a>
           </div>
         </div>
@@ -140,9 +145,9 @@
         <div class="card" style="width: 18rem;">
           <img src="./assets/curso3.jpg" class="card-img-top" alt="img-curso1">
           <div class="card-body">
-            <h5 class="card-title">diplomatura de programacion web full stack</h5>
-            <p class="card-text">Adquisicion de conocimientos en HTML, CSS, Bootstrap, ReactJS, NodeJs, MySQL y
-              MongoDB, ademas de manejo de JavaScript y TypeScript para crear aplicaciones web.</p>
+            <h5 class="card-title">Diplomatura de programación web full stack</h5>
+            <p class="card-text">Adquisición de conocimientos en HTML, CSS, Bootstrap, ReactJS, NodeJs, MySQL y
+              MongoDB, además de manejo de JavaScript y TypeScript para crear aplicaciones web.</p>
             <a href="#" class="btn btn-primary">Ver diploma</a>
           </div>
         </div>
@@ -151,8 +156,8 @@
           <img src="./assets/curso4.jpeg" class="card-img-top" alt="img-curso1">
           <div class="card-body">
             <h5 class="card-title">Curso de excel avanzando</h5>
-            <p class="card-text">Dominio de herramientas como tablas dinamicas, macros, funciones, analisis de
-              datos, optimizacion de procesos.
+            <p class="card-text">Dominio de herramientas como tablas dinámicas, macros, funciones, análisis de
+              datos, optimización de procesos.
             </p>
             <a href="#" class="btn btn-primary">Ver diploma</a>
           </div>
@@ -160,14 +165,14 @@
       </section>
 
       <!--Contacto-->
-      <section class="contacto">
+      <section class="contacto" id="contacto">
         <h3>Contacto</h3>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Nombre</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+          <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="mb-3">
@@ -183,7 +188,7 @@
         crossorigin="anonymous"></script>
 </body>
 <footer>
-  <p>Creado por Maria Emilia Bagnera</p>
+  <p>Creado por María Emilia Bagnera</p>
 </footer>
 </main>
 
